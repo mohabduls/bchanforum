@@ -1,0 +1,23 @@
+#Error Document Bchan Forum
+ErrorDocument 404 /404
+
+#RewriteModule
+RewriteEngine on
+RewriteBase /
+RewriteRule ^signup _register.php [NC]
+RewriteRule ^login _login.php [NC]
+RewriteRule ^user _user.php [NC]
+RewriteRule ^logout _logout.php?user=logout [NC]
+RewriteRule ^anime _forum1.php [NC]
+RewriteRule ^profile _profile.php [NC]
+RewriteRule ^bchan_captcha.png _captcha.php [NC]
+RewriteRule ^more _viewForum.php [NC]
+RewriteRule ^404 _notfound.php [NC]
+RewriteRule ^bchan-controls _administrator.php [NC]
+RewriteRule ^bchan-action-handle /system/_bchan-action-handle.php [NC]
+RewriteRule ^privacy-policy _sites.php?page=privacy-policy [NC]
+RewriteRule ^disclaimer _sites.php?page=disclaimer [NC]
+RewriteRule ^about-us _sites.php?page=about-us [NC]
+RewriteRule ^verify _verify.php [NC]
+RewriteRule ^sitemap.xml _sitemap.php [NC]
+RewriteRule ^list _animelist.php [NC]

@@ -1,0 +1,241 @@
+.bchan-header
+{
+	background-color: #21243d;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+.bchan-font-header
+{
+    font-family: 'IBM Plex Serif', serif;
+}
+.bchan-footer
+{
+	background-color: #21243d;
+}
+
+/*Card Bachan*/
+.bchan-card-anime
+{
+	background-color: #2c3158;
+}
+.bchan-card-manga
+{
+	background-color: #2c3158;
+}
+.bchan-card-japanese
+{
+	background-color: #2c3158;
+}
+.bchan-card-content
+{
+	background-color: #fbf4f9;
+	height: 120px;
+}
+.bchan-link
+{
+	text-decoration: none;
+}
+a
+{
+	text-decoration: none;
+}
+/*Bachan Form*/
+.bchan-form
+{
+	width: 100%;
+}
+.bchan-btn-background
+{
+	width: 180px;
+	background-color: #fd5e53;
+	color: white;
+}
+.bchan-btn-background:hover
+{
+	width: 180px;
+	background-color: white;
+	color: #fd5e53;
+	animation-name: submit-btn;
+	animation-duration: 10s;
+}
+.bchan-user-name
+{
+	background-color: #6f5a7e;
+}
+.bchan-forum-header
+{
+	font-size: 25px;
+}
+.bchan-discussion-list
+{
+	font-size: 20px;
+}
+.bchan-profile
+{
+	font-size: 25px;
+}
+.bchan-box-profile
+{
+	width: 500px;
+}
+.bchan-list-discussion
+{
+	border-bottom: 4px solid #6f5a7e;
+	min-height: 200px;
+	max-height: 300px;
+	width: 18rem;
+}
+.bchan-head-list-discussion
+{
+	background: linear-gradient(to right, #010a43, #6f5a7e);
+}
+.bchan_text_owner
+{
+	color: #333366;
+}
+.bchan-editor
+{
+	min-height: 500px;
+	max-height: 600px;
+}
+.bchan-text-rules
+{
+	color: #fd5e53;
+}
+.bchan-user-info-header
+{
+	background-color: #6f5a7e;
+}
+body
+{
+	background: linear-gradient(to right, #010a43, #6f5a7e);
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.bchan-expand
+{
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.bchan-bg-copyright
+{
+	background-color: #202040;
+}
+.bchan-bg-foot
+{
+	background: linear-gradient(to right, #010c53, #6e5773);
+	border-top: 2px solid #010c53;
+}
+.bchan-foot-row-border
+{
+	border-left: 1px solid white;
+	padding-left: 5px;
+}
+.bchan-not-found
+{
+	background: linear-gradient(to right, #192965, #6e5773);
+}
+.bchan-title-header
+{
+	font-size: 2rem;
+}
+.bchan-header-add{
+	background-color: #21243d;
+	font-family: 'IBM Plex Sans', sans-serif;
+	color: white;
+}
+
+.bchan-anime-search{
+	font-family: 'IBM Plex Sans', sans-serif;
+	background: linear-gradient(to right, #010a43, #6f5a7e);
+	border: none;
+}
+.bchan-anime-search:focus{
+	box-shadow: 0 2px 8px 0 rgba(255, 255, 255, 0.39), 0 4px 15px 0 rgba(255, 251, 251, 0.295);
+}
+
+.bchan-logo
+{
+	max-width: 300px;
+	display: none;
+	overflow: hidden;
+	box-shadow: 0 2px 5px 0 rgba(63, 63, 63, 0.274), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	-webkit-transition: .25s box-shadow;
+	transition: .25s box-shadow;
+}
+  
+  .bchan-logo:focus,
+  .bchan-logo:hover {
+	box-shadow: 0 5px 11px 0 rgba(255, 255, 255, 0.39), 0 4px 15px 0 rgba(255, 251, 251, 0.295);
+  }
+  
+  .bchan-inverse .bchan-img-overlay {
+	background-color: rgba(51, 51, 51, 0.85);
+	border-color: rgba(51, 51, 51, 0.85);
+  }
+
+/*Optimizing Bootstrap Animation*/
+a {
+	-webkit-transition: .25s all;
+	transition: .25s all;
+  }
+  
+  .card {
+	overflow: hidden;
+	box-shadow: 0 2px 5px 0 rgba(63, 63, 63, 0.274), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	-webkit-transition: .25s box-shadow;
+	transition: .25s box-shadow;
+  }
+  
+  .card:focus,
+  .card:hover {
+	box-shadow: 0 5px 11px 0 rgba(255, 255, 255, 0.39), 0 4px 15px 0 rgba(255, 251, 251, 0.295);
+  }
+  
+  .card-inverse .card-img-overlay {
+	background-color: rgba(51, 51, 51, 0.85);
+	border-color: rgba(51, 51, 51, 0.85);
+  }
+@media only screen and (max-width: 768px)
+{
+  [class*="bchan-form"]
+  {
+    width: 100%;
+  }
+  [class*="bchan-box-profile"]
+  {
+    width: 100%;
+  }
+  [class*="bchan-header-menu"]
+  {
+	  font-size: 18px;;
+  }
+  [class*="bchan-name"]
+  {
+	  font-size: 15px;
+  }
+  [class*="bchan-title-header"]
+  {
+	  font-size: 25px;
+  }
+  [class*="bchan-logo"]
+  {
+	max-width: 120px;
+  }
+  [class*="bchan-welcome-msg"]
+  {
+	font-size: 2rem;
+  }
+  [class*="bchan-welcome-msg-lead"]
+  {
+	font-size: 1rem;
+  }
+  [class*="bchan-foot-row-border"]
+  {
+  	border-left: 0px solid white;
+	padding-left: 0px;
+	border-top: 1px solid white;
+	padding-top: 5px;
+  }
+}

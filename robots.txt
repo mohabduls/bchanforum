@@ -1,0 +1,9 @@
+User-Agent: *
+Allow /
+Allow: /profile.php?u=*
+
+Disallow: /logout
+Disallow: /page/
+Disallow: /system/
+Disallow: /assets/
+Disallow: /assets/img/
